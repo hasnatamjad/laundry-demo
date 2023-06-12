@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Garment Care Express</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section>
+      <header class="bg-sky px-4 py-2">
+        <div
+          class="d-flex flex-column flex-md-row align-items-center justify-content-between"
+        >
+          <div
+            class="d-flex announce-bar align-items-center justify-content-sm-center gap-2 gap-md-3"
+          >
+            <div class="d-flex align-items-center gap-1">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="14"
+                height="14"
+                fill="currentColor"
+                class="bi bi-telephone-fill"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"
+                />
+              </svg>
+              <p class="text-light m-0" style="font-size: 12px">
+                <a href="tel:+220 221 1112"></a>+220 221 1112
+              </p>
+            </div>
+            <div class="d-flex align-items-center gap-1">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="14"
+                height="14"
+                fill="currentColor"
+                class="bi bi-envelope-fill"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555ZM0 4.697v7.104l5.803-3.558L0 4.697ZM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757Zm3.436-.586L16 11.801V4.697l-5.803 3.546Z"
+                />
+              </svg>
+              <p class="text-light m-0" style="font-size: 12px">
+                <a href="mailto:garmentcare.ex@gmail.com"
+                  >garmentcare.ex@gmail.com</a
+                >
+              </p>
+            </div>
+          </div>
+          <div class="d-none d-md-block">
+            <p class="text-light m-0">
+              Our launderette is open 9am-6pm mon-fri, and 9am-4pm on Saturdays.
+            </p>
+          </div>
+        </div>
+      </header>
+    </section>
+
+    <div class="booking-hero h-auto mb-5">
+      <!-- navbar -->
+      <section class="px-2 px-md-4 pt-3">
+        <nav class="navbar navbar-expand-lg">
+          <div class="container-fluid">
+            <!-- Logo -->
+            <div style="width: 8.5rem">
+              <a class="navbar-brand text-white" href="index.html"
+                ><img src="GC-white-transparent.png" alt="" class="img-fluid" />
+              </a>
+            </div>
+
+            <!-- Toggle button for small screens -->
+            <button
+              class="d-block d-md-none white-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNav"
+              aria-controls="navbarNav"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="38"
+                height="38"
+                fill="currentColor"
+                class="bi bi-list"
+                viewBox="0 0 16 16"
+                style="color: #4ec4cf"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"
+                />
+              </svg>
+            </button>
+
+            <!-- Menu items -->
+            <div
+              class="collapse navbar-collapse justify-content-end"
+              id="navbarNav"
+            >
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link m-0" aria-current="page" href="index.html"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="commercial.html"
+                    >Commercial Industry</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="services.html">Services</a>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link" href="how-it-works.html">How It Works?</a>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link" href="pricing.html">Price List</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="booking.html">Book Collection</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </section>
+
+      <section class="text-light text-center px-3 px-md-5 pb-5 pt-2 py-md-5">
+        <div class="container pb-5 pt-3 py-md-5">
+          <div
+            class="d-flex flex-column justify-content-center align-items-center mt-1 mt-md-2 p-0 p-md-5"
+          >
+            <div class="px-0 px-md-5 my-4">
+              <h1
+                class="font-mont hero-heading display-6 display-md-5 mb-3"
+                data-aos="zoom-out"
+                data-aos-duration="3000"
+              >
+                Garment Care Express
+                <br />
+                Fresh Clothes, Bright Look
+              </h1>
+            </div>
+            <div
+              class="d-flex flex-column flex-md-row align-items-center justify-content-center gap-3"
+            >
+              <a href="" class="hero-btn">
+                <button
+                  class="btn bg-transparent text-white px-5 py-2 my-0"
+                  style="border-radius: 0"
+                >
+                  BOOK COLLECTION
+                </button>
+              </a>
+              <a href="" class="hero-btn">
+                <button
+                  class="btn bg-transparent text-white px-5 py-2 my-0"
+                  style="border-radius: 0"
+                >
+                  DROP IT OFF
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- how it works -->
+    <div class="container">
+      <div class="row justify-content-center mb-5">
+        <div class="col-sm-12">
+          <h3 class="text-center text-black font-comfortaa fw-bold">
+            Use the forms below to book a collection and delivery with us.
+          </h3>
+          <div class="border-line text-center mx-auto col-sm-3 my-5"></div>
+          <h4 class="text-center text-black font-comfortaa">
+            Existing customer?
+          </h4>
+          <p class="mx-auto col-sm-8 text-center p-666 font-mont">
+            Let us know when you’d like your laundry collecting and we’ll do the
+            rest! Alternatively, call us on
+            <a href="tel:+220 221 1112" class="text-sky">+220 221 1112</a> if
+            you’d like to chat through your requirements.
+          </p>
+          <div class="border-line text-center mx-auto col-sm-3 my-5"></div>
+          <h4 class="text-center text-black font-comfortaa">New customer?</h4>
+          <p class="mx-auto col-sm-8 text-center p-666 font-mont">
+            Let us know which service you’re after along with your contact
+            details, and we will give you a call to discuss and confirm your
+            booking. Alternatively, call us on
+            <a href="tel:+220 221 1112" class="text-sky">+220 221 1112</a>
+          </p>
+        </div>
+      </div>
+      <!-- forms -->
+      <div class="row justify-content-center mb-5">
+        <div class="col-sm-12">
+          <div class="row justify-content-center gap-5">
+            <div class="col-md-5 bg-black p-5">
+              <!-- titles -->
+              <div>
+                <h4 class="text-light font-comfortaa inline-block mb-4">
+                  EXISTING CUSTOMER
+                </h4>
+                <h4 class="text-light font-lato inline-block mb-3">
+                  Book a Collection
+                </h4>
+              </div>
+              <!-- form -->
+              <form>
+                <div class="row mb-3">
+                  <div class="col text-light">
+                    <label for="name" class="mb-1">Name</label>
+                    <input
+                      type="text"
+                      class="form-control rounded-0"
+                      id="name"
+                      placeholder="Enter your name"
+                    />
+                  </div>
+                  <div class="col text-light">
+                    <label for="phone" class="mb-1">Phone Number</label>
+                    <input
+                      type="tel"
+                      class="form-control rounded-0"
+                      id="phone"
+                      placeholder="Enter your phone number"
+                    />
+                  </div>
+                </div>
+                <div class="row mb-3">
+                  <div class="col text-light">
+                    <label for="collection-day">Select Collection Day</label>
+                    <select class="form-control rounded-0" id="collection-day">
+                      <option selected disabled>
+                        Collection date and time
+                      </option>
+                      <option>Monday 6-8pm</option>
+                      <option>Tuesday 6-8pm</option>
+                      <option>Wednesday 6-8pm</option>
+                      <option>Thursday 6-8pm</option>
+                      <option>Friday 6-8pm</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="row mb-4">
+                  <div class="col text-light">
+                    <label for="delivery-day">Select Delivery Day</label>
+                    <select class="form-control rounded-0" id="delivery-day">
+                      <option selected disabled>Delivery date and time</option>
+                      <option>Monday 6-8pm</option>
+                      <option>Tuesday 6-8pm</option>
+                      <option>Wednesday 6-8pm</option>
+                      <option>Thursday 6-8pm</option>
+                      <option>Friday 6-8pm</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col">
+                    <button
+                      type="submit"
+                      class="btn booking-btn col-4 rounded-0"
+                    >
+                      Book
+                    </button>
+                  </div>
+                </div>
+              </form>
+            </div>
+            <div class="col-md-5 bg-black p-5">
+              <!-- titles -->
+              <div>
+                <h4 class="text-light font-comfortaa inline-block mb-4">
+                  NEW CUSTOMER
+                </h4>
+                <h4 class="text-light font-lato inline-block mb-3">
+                  Request A Callback
+                </h4>
+              </div>
+              <!-- form -->
+              <form>
+                <div class="row mb-3">
+                  <div class="col">
+                    <label for="name" class="text-light mb-1">Name</label>
+                    <input
+                      type="text"
+                      class="form-control rounded-0"
+                      id="name"
+                      placeholder="Enter your name"
+                    />
+                  </div>
+                  <div class="col">
+                    <label for="phone" class="text-light mb-1"
+                      >Phone Number</label
+                    >
+                    <input
+                      type="tel"
+                      class="form-control rounded-0"
+                      id="phone"
+                      placeholder="Enter your phone number"
+                    />
+                  </div>
+                </div>
+                <div class="row mb-3">
+                  <div class="col">
+                    <label for="email" class="text-light mb-1">Email</label>
+                    <input
+                      type="email"
+                      class="form-control rounded-0"
+                      id="email"
+                      placeholder="Enter your email"
+                      required
+                    />
+                  </div>
+                </div>
+                <div class="row mb-3">
+                  <div class="col">
+                    <label for="service" class="text-light mb-1"
+                      >Service Required</label
+                    >
+                    <select class="form-control rounded-0" id="service">
+                      <option selected disabled>Service Required</option>
+                      <option>Wash, Fold & Iron</option>
+                      <option>Alteration & Repair</option>
+                      <option>Bedding</option>
+                      <option>Dry Cleaning</option>
+                      <option>Shirt Service</option>
+                      <option>Commercial Laundry</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col">
+                    <button type="submit" class="btn rounded-0 booking-btn">
+                      Send Request
+                    </button>
+                  </div>
+                </div>
+              </form>
+              <!-- form end -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="bg-dark mt-5 py-5 px-3 px-md-2">
+      <div class="container">
+        <div class="d-flex flex-column flex-md-row">
+          <!-- menu -->
+          <div class="col-md-3 d-flex flex-column mb-5 mb-md-0">
+            <h4 class="text-light-sky mb-4">Menu</h4>
+            <div class="d-flex flex-column gap-2">
+              <a href="index.html">Home</a>
+              <a href="about-us.html">About Us</a>
+              <a href="booking.html">Book Collection</a>
+              <a href="pricing.html">Pricing</a>
+            </div>
+          </div>
+
+          <!-- services -->
+          <div class="col-md-3 d-flex flex-column mb-5 mb-md-0">
+            <h4 class="text-light-sky mb-4">Our Services</h4>
+            <div class="d-flex flex-column gap-2">
+              <a href="services.html">Wash Fold & Iron</a>
+              <a href="services.html">Alteration & Repair</a>
+              <a href="services.html">Dry Clean</a>
+              <a href="commercial.html">Commercial Laundry</a>
+            </div>
+          </div>
+          <!-- contact us -->
+          <div class="col-md-3 d-flex flex-column mb-5 mb-md-0">
+            <h4 class="text-light-sky mb-4">Contact Us</h4>
+            <a href="tel:+220 221 1112" class="inline-block mb-3"
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="14"
+                height="14"
+                fill="currentColor"
+                class="bi bi-telephone-fill"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"
+                ></path>
+              </svg>
+              +220 221 1112</a
+            >
+            <a href="mailto:garmentcare.ex@gmail.com"
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="14"
+                height="14"
+                fill="currentColor"
+                class="bi bi-envelope-fill"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555ZM0 4.697v7.104l5.803-3.558L0 4.697ZM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757Zm3.436-.586L16 11.801V4.697l-5.803 3.546Z"
+                ></path>
+              </svg>
+              garmentcare.ex@gmail.com</a
+            >
+          </div>
+          <!-- about us -->
+          <div class="col-md-3 mb-5 mb-md-0">
+            <h4 class="text-light-sky mb-4">Find Us</h4>
+
+            <p class="text-light m-0 mb-2">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-geo-alt-fill"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"
+                />
+              </svg>
+              Brusubi Sukuta Highway (near Brusubi Phase 2) Sukuta The Gambia
+            </p>
+            <p class="text-light m-0">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-clock-fill"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71V3.5z"
+                />
+              </svg>
+              Opening time: 09:00 - 18:00
+            </p>
+          </div>
+        </div>
+        <hr class="text-light" />
+        <div class="text-light-sky">
+          &copy;
+          <script>
+            document.write(new Date().getFullYear());
+          </script>
+          Garment Express Care. All rights reserved.
+        </div>
+      </div>
+    </footer>
+
+    <script src="index.js"></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>

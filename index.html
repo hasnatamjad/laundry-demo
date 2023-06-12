@@ -1,0 +1,1058 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Garment Care Express</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section>
+      <header class="bg-sky px-4 py-2">
+        <div
+          class="d-flex flex-column flex-md-row align-items-center justify-content-between"
+        >
+          <div
+            class="d-flex announce-bar align-items-center justify-content-sm-center gap-2 gap-md-3"
+          >
+            <div class="d-flex align-items-center gap-1">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="14"
+                height="14"
+                fill="currentColor"
+                class="bi bi-telephone-fill"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"
+                />
+              </svg>
+              <p class="text-light m-0" style="font-size: 12px">
+                <a href="tel:+220 221 1112"></a>+220 221 1112
+              </p>
+            </div>
+            <div class="d-flex align-items-center gap-1">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="14"
+                height="14"
+                fill="currentColor"
+                class="bi bi-envelope-fill"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555ZM0 4.697v7.104l5.803-3.558L0 4.697ZM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757Zm3.436-.586L16 11.801V4.697l-5.803 3.546Z"
+                />
+              </svg>
+              <p class="text-light m-0" style="font-size: 12px">
+                <a href="mailto:garmentcare.ex@gmail.com"
+                  >garmentcare.ex@gmail.com</a
+                >
+              </p>
+            </div>
+          </div>
+          <div class="d-none d-md-block">
+            <p class="text-light m-0">
+              Our launderette is open 9am-6pm mon-fri, and 9am-4pm on Saturdays.
+            </p>
+          </div>
+        </div>
+      </header>
+    </section>
+
+    <div class="hero h-auto mb-5">
+      <!-- navbar -->
+      <section class="px-2 px-md-4 pt-3">
+        <nav class="navbar navbar-expand-lg">
+          <div class="container-fluid">
+            <!-- Logo -->
+            <div style="width: 8.5rem">
+              <a class="navbar-brand text-white" href="index.html"
+                ><img src="GC-white-transparent.png" alt="" class="img-fluid" />
+              </a>
+            </div>
+
+            <!-- Toggle button for small screens -->
+            <button
+              class="d-block d-md-none white-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNav"
+              aria-controls="navbarNav"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="38"
+                height="38"
+                fill="currentColor"
+                class="bi bi-list"
+                viewBox="0 0 16 16"
+                style="color: #4ec4cf"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"
+                />
+              </svg>
+            </button>
+
+            <!-- Menu items -->
+            <div
+              class="collapse navbar-collapse justify-content-end"
+              id="navbarNav"
+            >
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link m-0" aria-current="page" href="index.html"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="commercial.html"
+                    >Commercial Industry</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="services.html">Services</a>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link" href="how-it-works.html">How It Works?</a>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link" href="pricing.html">Price List</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="booking.html">Book Collection</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </section>
+
+      <section class="text-light text-center px-3 px-md-5 pb-5 pt-2 py-md-5">
+        <div class="container pb-5 pt-3 py-md-5">
+          <div
+            class="d-flex flex-column justify-content-center align-items-center mt-1 mt-md-2 p-0 p-md-5"
+          >
+            <div class="px-0 px-md-5 my-4">
+              <h1
+                class="font-mont hero-heading display-6 display-md-5 mb-3"
+                data-aos="zoom-out"
+                data-aos-duration="3000"
+              >
+                Garment Care Express
+                <br />
+                Fresh Clothes, Bright Look
+              </h1>
+            </div>
+            <div
+              class="d-flex flex-column flex-md-row align-items-center justify-content-center gap-3"
+            >
+              <a href="" class="hero-btn">
+                <button
+                  class="btn bg-transparent text-white px-5 py-2 my-0"
+                  style="border-radius: 0"
+                >
+                  BOOK COLLECTION
+                </button>
+              </a>
+              <a href="" class="hero-btn">
+                <button
+                  class="btn bg-transparent text-white px-5 py-2 my-0"
+                  style="border-radius: 0"
+                >
+                  DROP IT OFF
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- our services -->
+    <section class="p-md-3 px-3 py-3 my-3">
+      <div class="container">
+        <h3
+          class="font-lato mb-5 section-heading"
+          data-aos="fade-right"
+          data-aos-offset="300"
+          data-aos-easing="ease-in-sine"
+        >
+          Our Quality <span class="text-light-sky fw-bold">Services</span>
+        </h3>
+        <div
+          class="d-flex flex-column flex-md-row gap-5 mb-5 w-100"
+          data-aos="fade-up"
+          data-aos-duration="1500"
+        >
+          <!-- service 1 -->
+          <div
+            class="card border-0 flex-grow-1 w-100"
+            style="box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px"
+          >
+            <div class="zoom-item">
+              <img
+                src="service-1.jpg"
+                class="img-fluid card-img-top rounded-0 zoom"
+                alt="..."
+                id="service"
+              />
+            </div>
+
+            <div
+              class="card-body d-flex justify-content-center flex-column gap-3"
+            >
+              <h5 class="card-title font-comfortaa text-center">
+                Wash, Fold & Iron
+              </h5>
+              <p class="card-text p-666 w-100 font-lato text-center">
+                Simply drop off your laundry (or arrange a collection) and we’ll
+                wash, dry and fold it beautifully for you.
+              </p>
+              <a
+                href="#"
+                class="btn btn-dark service-btn rounded-0 w-75 mx-auto"
+                >INFO AND PRICING</a
+              >
+            </div>
+          </div>
+          <!-- service 2 -->
+          <div
+            class="card border-0 flex-grow-1 w-100"
+            style="box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px"
+          >
+            <div class="zoom-item">
+              <img
+                src="service-2.jpg"
+                class="img-fluid card-img-top rounded-0 zoom"
+                alt="..."
+                id="service"
+              />
+            </div>
+            <div
+              class="card-body d-flex justify-content-center flex-column gap-3"
+            >
+              <h5 class="card-title font-comfortaa text-center">
+                Alteration & Repair
+              </h5>
+              <p class="card-text p-666 w-100 font-lato text-center">
+                Looking for a helping hand with your ironing? At Garment Care
+                launderette in Gambia, we will take care of it for you.
+              </p>
+              <a href="#" class="btn btn-dark service-btn rounded-0"
+                >INFO AND PRICING</a
+              >
+            </div>
+          </div>
+          <!-- service 3 -->
+          <div
+            class="card border-0 flex-grow-1 w-100"
+            style="box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px"
+          >
+            <div class="zoom-item">
+              <img
+                src="service-3.jpg"
+                class="img-fluid card-img-top rounded-0 zoom"
+                alt="..."
+                id="service"
+              />
+            </div>
+            <div
+              class="card-body d-flex justify-content-center flex-column gap-3"
+            >
+              <h5 class="card-title font-comfortaa text-center">Bedding</h5>
+              <p class="card-text p-666 w-100 font-lato text-center">
+                Probably something you don’t wish to think about too often!
+                We'll take care of it for you with our bedding service.
+              </p>
+              <a href="#" class="btn btn-dark service-btn rounded-0"
+                >INFO AND PRICING</a
+              >
+            </div>
+          </div>
+        </div>
+        <!-- box-2 -->
+        <div class="d-flex flex-column flex-md-row gap-5 mb-5 w-100">
+          <!-- service 4 -->
+          <div
+            class="card border-0 flex-grow-1 w-100"
+            style="box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px"
+          >
+            <div class="zoom-item">
+              <img
+                src="service-4.jpg"
+                class="img-fluid card-img-top rounded-0 zoom"
+                alt="..."
+                id="service"
+              />
+            </div>
+
+            <div
+              class="card-body d-flex justify-content-center flex-column gap-3"
+            >
+              <h5 class="card-title font-comfortaa text-center">
+                Dry Cleaning
+              </h5>
+              <p class="card-text p-666 w-100 font-lato text-center">
+                We have an unrivalled dry cleaning service, delivering speed and
+                quality at a competitive price.
+              </p>
+              <a
+                href="#"
+                class="btn btn-dark service-btn rounded-0 w-75 mx-auto"
+                >INFO AND PRICING</a
+              >
+            </div>
+          </div>
+          <!-- service 5 -->
+          <div
+            class="card border-0 flex-grow-1 w-100"
+            style="box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px"
+          >
+            <div class="zoom-item">
+              <img
+                src="service-5.jpg"
+                class="img-fluid card-img-top rounded-0 zoom"
+                alt="..."
+                id="service"
+              />
+            </div>
+            <div
+              class="card-body d-flex justify-content-center flex-column gap-3"
+            >
+              <h5 class="card-title font-comfortaa text-center">
+                Shirt Service
+              </h5>
+              <p class="card-text p-666 w-100 font-lato text-center">
+                Our pristine Shirt Service allows you dress with confidence and
+                look your best for all occasions.
+              </p>
+              <a href="#" class="btn btn-dark service-btn rounded-0"
+                >INFO AND PRICING</a
+              >
+            </div>
+          </div>
+          <!-- service 6 -->
+          <div
+            class="card border-0 flex-grow-1 w-100"
+            style="box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px"
+          >
+            <div class="zoom-item">
+              <img
+                src="service-6.jpg"
+                class="img-fluid card-img-top rounded-0 zoom"
+                alt="..."
+                id="service"
+              />
+            </div>
+            <div
+              class="card-body d-flex justify-content-center flex-column gap-3"
+            >
+              <h5 class="card-title font-comfortaa text-center">
+                Commercial Laundry
+              </h5>
+              <p class="card-text p-666 w-100 font-lato text-center">
+                We provide commercial laundry services for a wide range of
+                businesses in Gambia. Free collection & delivery.
+              </p>
+              <a href="#" class="btn btn-dark service-btn rounded-0"
+                >INFO AND PRICING</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- aboutus -->
+    <section class="px-5 py-5">
+      <div
+        class="d-flex flex-column flex-md-row about-us-new align-items-center"
+      >
+        <div
+          class="w-100"
+          data-aos="fade-up"
+          data-aos-offset="300"
+          data-aos-easing="ease-in-sine"
+        >
+          <img src="what-we-offer.jpg" class="img-fluid" alt="" />
+        </div>
+        <div
+          class="w-100"
+          data-aos="fade-up"
+          data-aos-offset="100"
+          data-aos-easing="ease-in-sine"
+        >
+          <h3 class="font-comfortaa mb-4">
+            About <span class="text-light-sky fww-bold">Garment Care</span>
+          </h3>
+          <p class="mb-4 font-lato p-666">
+            Are you looking for a superior launderette in Gambia? If so, look no
+            further than Grment Care Express. Offering a host of different
+            laundry services across Gambia, we’re here to take the hassle out of
+            keeping your garments in pristine condition. <br />
+          </p>
+          <p class="mb-4 font-lato p-666">
+            Whether you’re searching for domestic or commercial laundry
+            services, a dry cleaners, or you have piles of clothes or a duvet in
+            need of attention, we’re here to help!
+          </p>
+
+          <p class="m-0 font-lato text-black">
+            We offer a free collection and delivery service for any laundry
+            orders over £25.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- how it works -->
+    <section
+      class="how-it-works py-5 px-3 mt-3 mb-5"
+      id="how-it-works"
+      data-aos="zoom-in-up"
+      data-aos-duration="1500"
+    >
+      <div class="text-center">
+        <p class="font-mont text-light-sky">In 4 easy steps</p>
+        <h2 class="font-comfortaa fw-bold text-black mb-5">How It Works</h2>
+        <!-- icon box -->
+        <div
+          class="d-flex flex-column flex-md-row gap-5 align-items-center justify-content-center"
+        >
+          <!-- box 1 -->
+          <div class="text-center">
+            <h1 class="font-mont display-1" style="color: #dcf3f5">01</h1>
+            <p class="h5 font-lato">
+              <span class="text-light-sky fw-bold">Bag up </span> all your dirty
+              clohtes
+            </p>
+          </div>
+          <!-- box-2 -->
+          <div class="text-center">
+            <h1 class="font-mont display-1" style="color: #dcf3f5">02</h1>
+            <p class="h5 font-lato">
+              We <span class="text-light-sky fw-bold">pick up </span> your
+              clothes
+            </p>
+          </div>
+          <!-- box-3 -->
+          <div class="text-center">
+            <h1 class="font-mont display-1" style="color: #dcf3f5">03</h1>
+            <p class="h5 font-lato">
+              We <span class="text-light-sky">clean </span> your clohtes
+            </p>
+          </div>
+          <!-- box-4 -->
+          <div class="text-center">
+            <h1 class="font-mont display-1" style="color: #dcf3f5">04</h1>
+            <p class="h5 font-lato">
+              We <span class="text-light-sky fw-bold">deliver </span> clean,
+              folded clohtes
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- <section
+      class="p-3 p-md-5 about-us my-4 d-flex justify-content-center align-items-center"
+      data-aos="fade-up"
+      data-aos-duration="2000"
+    >
+      <div class="container p-3 p-md-5">
+        <p class="text-light mb-4 font-lato text-center">
+          Are you looking for a superior launderette in Gambia? If so, look no
+          further than Grment Care Express. Offering a host of different laundry
+          services across Gambia, we’re here to take the hassle out of keeping
+          your garments in pristine condition. Whether you’re searching for
+          domestic or commercial laundry services, a dry cleaners, or you have
+          piles of clothes or a duvet in need of attention, we’re here to help!
+        </p>
+        <p class="text-light m-0 font-lato text-center">
+          We offer a free collection and delivery service for any laundry orders
+          over £25.
+        </p>
+      </div>
+    </section> -->
+
+    <section class="what-we-do p-3 p-md-5">
+      <div class="container px-2 px-md-4">
+        <h3
+          class="font-lato mb-4 section-heading"
+          data-aos="fade-right"
+          data-aos-offset="300"
+          data-aos-easing="ease-in-sine"
+        >
+          What We <span class="text-light-sky fww-bold">Offer</span>
+        </h3>
+        <h6 class="font-comfortaa text-black mb-3">
+          At Garment Care Express, we pride ourselves on offering a reliable,
+          dependable, high-quality laundry service at an affordable price. We
+          provide everything from dry cleaning and duvet cleaning, to service
+          washes, commercial laundry, shirt washing and ironing.
+        </h6>
+        <p class="p-666 font-lato">
+          Our laundry service is designed to provide you with a simple,
+          stress-free means of keeping your clothes and bedding clean and fresh.
+          We run a self-service launderette in Brighton, as well as offering a
+          comprehensive laundry service wash option. Our friendly, knowledgeable
+          staff are on hand at the laundrette to help with all washes, while our
+          service wash package includes the option to add free collection and
+          delivery. If you’re short on time and you’ve got laundry to do, this
+          is the perfect, hassle-free solution. We can collect your laundry,
+          bring it to our launderette in Hove, wash, dry, and fold it with the
+          utmost care, and then deliver it back to you.
+        </p>
+        <p class="font-lato p-666">
+          We also offer expert duvet cleaning and dry cleaning, and we run a
+          competitively-priced ironing service.
+        </p>
+      </div>
+    </section>
+
+    <!-- review start -->
+    <section class="py-4 my-4">
+      <div class="container">
+        <div
+          id="carouselExampleIndicators"
+          class="carousel slide"
+          data-bs-ride="true"
+        >
+          <div class="d-flex flex-column gap-4">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="d-block w-100 review-box">
+                  <div
+                    class="d-flex align-items-center justify-content-center gap-5"
+                  >
+                    <div class="col-md-3 col-10">
+                      <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">
+                          Card subtitle
+                        </h6>
+                        <p class="card-text">
+                          Some quick example text to build on the card title and
+                          make up the bulk of the card's content.
+                        </p>
+                        <a href="#" class="card-link">Card link</a>
+                        <a href="#" class="card-link">Another link</a>
+                      </div>
+                    </div>
+                    <div class="col-md-3 col-10">
+                      <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">
+                          Card subtitle
+                        </h6>
+                        <p class="card-text">
+                          Some quick example text to build on the card title and
+                          make up the bulk of the card's content.
+                        </p>
+                        <a href="#" class="card-link">Card link</a>
+                        <a href="#" class="card-link">Another link</a>
+                      </div>
+                    </div>
+                    <div class="col-md-3 col-10">
+                      <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">
+                          Card subtitle
+                        </h6>
+                        <p class="card-text">
+                          Some quick example text to build on the card title and
+                          make up the bulk of the card's content.
+                        </p>
+                        <a href="#" class="card-link">Card link</a>
+                        <a href="#" class="card-link">Another link</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="d-block w-100 review-box">
+                  <div
+                    class="d-flex align-items-center justify-content-center gap-5"
+                  >
+                    <div class="card col-md-4 col-10">
+                      <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">
+                          Card subtitle
+                        </h6>
+                        <p class="card-text">
+                          Some quick example text to build on the card title and
+                          make up the bulk of the card's content.
+                        </p>
+                        <a href="#" class="card-link">Card link</a>
+                        <a href="#" class="card-link">Another link</a>
+                      </div>
+                    </div>
+                    <div class="card col-md-4 col-10">
+                      <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">
+                          Card subtitle
+                        </h6>
+                        <p class="card-text">
+                          Some quick example text to build on the card title and
+                          make up the bulk of the card's content.
+                        </p>
+                        <a href="#" class="card-link">Card link</a>
+                        <a href="#" class="card-link">Another link</a>
+                      </div>
+                    </div>
+                    <div class="card col-md-4 col-10">
+                      <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">
+                          Card subtitle
+                        </h6>
+                        <p class="card-text">
+                          Some quick example text to build on the card title and
+                          make up the bulk of the card's content.
+                        </p>
+                        <a href="#" class="card-link">Card link</a>
+                        <a href="#" class="card-link">Another link</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="d-block w-100 review-box">
+                  <div class="d-flex align-items-center justify-content-center">
+                    <div class="card col-md-4 col-10">
+                      <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">
+                          Card subtitle
+                        </h6>
+                        <p class="card-text">
+                          Some quick example text to build on the card title and
+                          make up the bulk of the card's content.
+                        </p>
+                        <a href="#" class="card-link">Card link</a>
+                        <a href="#" class="card-link">Another link</a>
+                      </div>
+                    </div>
+                    <div class="card col-md-4 col-10">
+                      <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">
+                          Card subtitle
+                        </h6>
+                        <p class="card-text">
+                          Some quick example text to build on the card title and
+                          make up the bulk of the card's content.
+                        </p>
+                        <a href="#" class="card-link">Card link</a>
+                        <a href="#" class="card-link">Another link</a>
+                      </div>
+                    </div>
+                    <div class="card col-md-4 col-10">
+                      <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">
+                          Card subtitle
+                        </h6>
+                        <p class="card-text">
+                          Some quick example text to build on the card title and
+                          make up the bulk of the card's content.
+                        </p>
+                        <a href="#" class="card-link">Card link</a>
+                        <a href="#" class="card-link">Another link</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="d-flex align-items-center justify-content-center gap-4">
+              <button
+                class="carousel-control-pr border-0 bg-transparent"
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="28"
+                  height="28"
+                  fill="currentColor"
+                  class="bi bi-chevron-left"
+                  viewBox="0 0 16 16"
+                  style="color: #164684"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z"
+                  />
+                </svg>
+
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button
+                class="carousel-control-ne border-0 bg-transparent"
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="28"
+                  height="28"
+                  fill="currentColor"
+                  class="bi bi-chevron-right"
+                  viewBox="0 0 16 16"
+                  aria-hidden="true"
+                  style="color: #164684"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"
+                  />
+                </svg>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- review ends -->
+
+    <!-- what to expect -->
+    <section class="what-to-expect p-3 p-md-3">
+      <div class="container">
+        <div class="border-line"></div>
+        <div class="d-flex flex-column flex-md-row gap-5 mt-5">
+          <!-- box-1 -->
+          <div class="w-100 w-md-50">
+            <div class="p-2">
+              <h4
+                class="font-comfortaa mb-3 section-heading"
+                data-aos="fade-right"
+                data-aos-offset="200"
+                data-aos-easing="ease-in-sine"
+              >
+                What to expect at
+                <span class="text-light-sky fw-bold">Garment Care Express</span>
+              </h4>
+              <p class="p-666 font-lato mb-3">
+                We are very proud to run a swift, efficient laundarette ideally
+                located for clients in Brighton and Hove. Our launderette is
+                kitted out with modern technology, and we have an extensive
+                range of washing machines and dryers, including coin-operated
+                machines for self-service washes.
+              </p>
+              <p class="p-666 font-lato mb-3">
+                Our launderette is staffed at all times, and if you have any
+                questions or queries, we’ll do everything we can to find a
+                solution and point you in the right direction.
+              </p>
+              <p class="p-666 font-lato mb-3">
+                Our service wash package is ideal for clients in a hurry and we
+                even offer a same-day option. We also provide expert cleaning
+                for all kinds of items of clothing, including specialist shirts
+                and wedding dresses.
+              </p>
+            </div>
+            <div class="what-to-expect-line my-5"></div>
+            <div class="p-2">
+              <h4
+                class="font-comfortaa mb-3 section-heading"
+                data-aos="fade-right"
+                data-aos-offset="200"
+                data-aos-easing="ease-in-sine"
+              >
+                Commercial Laundry
+                <span class="text-light-sky fw-bold">Services</span>
+              </h4>
+              <p class="p-666 font-lato mb-3">
+                We are proud to work with a number of local businesses, and we
+                have established a reputation based on reliability and
+                professionalism.
+              </p>
+              <p class="p-666 font-lato mb-3">
+                We have a range of commercial clients, including local
+                restaurants, B&Bs, hotels, rest homes, and children’s nurseries,
+                and we provide a host of business solutions, including washing
+                and ironing, table and kitchenware cleaning, workwear and
+                uniform laundry services, and bed linen and duvet cleaning.
+              </p>
+              <p class="p-666 font-lato mb-3">
+                We adopt a flexible, personalised approach to suit each
+                individual client and we offer a free collection and delivery
+                option within the Brighton and Hove area.
+              </p>
+              <p class="p-666 font-lato mb-3">
+                If you’re looking for a laundrette you can trust in Brighton and
+                Hove, why not get in touch with us today? Whether you’re a
+                commercial client or you’re looking to tackle a mountain of
+                washing that has formed in your utility room, we’re confident
+                you’ll be delighted with the service we provide
+              </p>
+            </div>
+          </div>
+          <!-- box-2 -->
+          <div
+            class="w-100 w-md-50 mt-2"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+          >
+            <div class="px-4 px-md-5 py-4 bg-box-2">
+              <div>
+                <h4 class="font-comfortaa fw-bold text-light mb-3">
+                  Free collection and delivery
+                </h4>
+                <p class="p-666 font-lato text-light mb-4">
+                  We are proud to work with a number of local businesses, and we
+                  have established a reputation based on reliability and
+                  professionalism.
+                </p>
+              </div>
+              <div class="mb-5">
+                <h3 class="font-comfortaa fw-bold text-light mb-1">
+                  Existing Customer?
+                </h3>
+                <div class="what-to-expect-line"></div>
+              </div>
+              <div class="mb-3">
+                <h3 class="font-comfortaa fw-bold text-light mb-3">
+                  Book A Collection
+                </h3>
+                <form>
+                  <div class="form-row">
+                    <div class="form-group col-md-10 mb-3">
+                      <label for="name" class="text-light">Your Name</label>
+                      <input
+                        type="text"
+                        class="form-control rounded-0"
+                        id="name"
+                        placeholder="Enter your name"
+                      />
+                    </div>
+                    <div class="form-group col-md-10 mb-3">
+                      <label for="number" class="text-light">Your Number</label>
+                      <input
+                        type="text"
+                        class="form-control rounded-0"
+                        id="number"
+                        placeholder="Enter your phone number"
+                      />
+                    </div>
+                  </div>
+                  <div class="form-row">
+                    <div class="form-group col-md-10 mb-3">
+                      <label for="collection" class="text-light"
+                        >Collection Day and Time</label
+                      >
+                      <select class="form-control rounded-0" id="collection">
+                        <option>Monday 6-8 pm</option>
+                        <option>Tuesday 6-8 pm</option>
+                        <option>Wednesday 6-8 pm</option>
+                        <option>Thursday 6-8 pm</option>
+                        <option>Friday 6-8 pm</option>
+                        <option>Saturday 6-8 pm</option>
+                        <option>Sunday 6-8 pm</option>
+                      </select>
+                    </div>
+                    <div class="form-group col-md-10 mb-4">
+                      <label for="delivery" class="text-light"
+                        >Delivery Day and Time</label
+                      >
+                      <select class="form-control rounded-0" id="delivery">
+                        <option>Monday 6-8 pm</option>
+                        <option>Tuesday 6-8 pm</option>
+                        <option>Wednesday 6-8 pm</option>
+                        <option>Thursday 6-8 pm</option>
+                        <option>Friday 6-8 pm</option>
+                        <option>Saturday 6-8 pm</option>
+                        <option>Sunday 6-8 pm</option>
+                      </select>
+                    </div>
+                  </div>
+                  <button
+                    type="submit"
+                    class="btn service-btn rounded-0 px-3 py-3"
+                  >
+                    BOOK NOW
+                  </button>
+                </form>
+              </div>
+              <div>
+                <img
+                  src="what-to-expect-main-img.jpg"
+                  class="img-fluid"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="bg-dark mt-5 py-5 px-3 px-md-2">
+      <div class="container">
+        <div class="d-flex flex-column flex-md-row">
+          <!-- menu -->
+          <div class="col-md-3 d-flex flex-column mb-5 mb-md-0">
+            <h4 class="text-light-sky mb-4">Menu</h4>
+            <div class="d-flex flex-column gap-2">
+              <a href="index.html">Home</a>
+              <a href="about-us.html">About Us</a>
+              <a href="booking.html">Book Collection</a>
+              <a href="pricing.html">Pricing</a>
+            </div>
+          </div>
+
+          <!-- services -->
+          <div class="col-md-3 d-flex flex-column mb-5 mb-md-0">
+            <h4 class="text-light-sky mb-4">Our Services</h4>
+            <div class="d-flex flex-column gap-2">
+              <a href="services.html">Wash Fold & Iron</a>
+              <a href="services.html">Alteration & Repair</a>
+              <a href="services.html">Dry Clean</a>
+              <a href="commercial.html">Commercial Laundry</a>
+            </div>
+          </div>
+          <!-- contact us -->
+          <div class="col-md-3 d-flex flex-column mb-5 mb-md-0">
+            <h4 class="text-light-sky mb-4">Contact Us</h4>
+            <a href="tel:+220 221 1112" class="inline-block mb-3"
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="14"
+                height="14"
+                fill="currentColor"
+                class="bi bi-telephone-fill"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"
+                ></path>
+              </svg>
+              +220 221 1112</a
+            >
+            <a href="mailto:garmentcare.ex@gmail.com"
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="14"
+                height="14"
+                fill="currentColor"
+                class="bi bi-envelope-fill"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555ZM0 4.697v7.104l5.803-3.558L0 4.697ZM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757Zm3.436-.586L16 11.801V4.697l-5.803 3.546Z"
+                ></path>
+              </svg>
+              garmentcare.ex@gmail.com</a
+            >
+          </div>
+          <!-- about us -->
+          <div class="col-md-3 mb-5 mb-md-0">
+            <h4 class="text-light-sky mb-4">Find Us</h4>
+
+            <p class="text-light m-0 mb-2">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-geo-alt-fill"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"
+                />
+              </svg>
+              Brusubi Sukuta Highway (near Brusubi Phase 2) Sukuta The Gambia
+            </p>
+            <p class="text-light m-0">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-clock-fill"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71V3.5z"
+                />
+              </svg>
+              Opening time: 09:00 - 18:00
+            </p>
+          </div>
+        </div>
+        <hr class="text-light" />
+        <div class="text-light-sky">
+          &copy;
+          <script>
+            document.write(new Date().getFullYear());
+          </script>
+          Garment Express Care. All rights reserved.
+        </div>
+      </div>
+    </footer>
+
+    <script src="index.js"></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>

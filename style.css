@@ -1,0 +1,340 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.font-comfortaa {
+  font-family: "Comfortaa", cursive;
+}
+
+.font-lato {
+  font-family: "Lato", sans-serif;
+}
+
+.font-mont {
+  font-family: "Montserrat", sans-serif;
+}
+
+.p-666 {
+  color: #666666;
+}
+
+/* #164684 */
+
+.bg-dark-blue {
+  background-color: #164684;
+}
+.text-dark-blue {
+  color: #164684;
+}
+
+.bg-light-sky {
+  background-color: #4ec4cf;
+}
+
+.text-light-sky {
+  color: #4ec4cf;
+}
+.bg-sky {
+  background-color: #1182b0;
+}
+.text-sky {
+  color: #1182b0;
+}
+
+body svg {
+  color: #fff;
+}
+
+html a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.announce-bar {
+  flex-direction: row;
+}
+
+@media (max-width: 346px) {
+  .announce-bar {
+    flex-direction: column;
+  }
+}
+
+.hero {
+  background-image: linear-gradient(
+      rgba(22, 22, 22, 0.6),
+      rgba(22, 22, 22, 0.6)
+    ),
+    url(hero-3.jpg);
+
+  background-size: cover;
+  background-position: 50%;
+  background-repeat: no-repeat;
+}
+
+.hero-heading {
+  font-weight: 700;
+}
+
+.hero-btn,
+.hero-btn:link {
+  border: 2px solid #fff;
+}
+
+.hero-btn:hover,
+.hero-btn:active {
+  background-color: #1182b0;
+  color: #fff;
+  border: 2px solid #1182b0;
+}
+
+.white-toggler {
+  border: none;
+  box-shadow: none;
+  background-color: transparent;
+  color: #164684 !important;
+}
+
+.nav-link {
+  color: #fff;
+  font-size: 1.1rem;
+}
+
+.active-link {
+  color: #4ec4cf;
+}
+
+.nav-link:hover,
+.nav-link:active {
+  color: #4ec4cf;
+}
+
+.service-btn {
+  background-color: #4ec4cf;
+  color: #000;
+  border: none;
+}
+
+.service-hero {
+  /* height: 100vh; */
+  background-image: linear-gradient(
+      rgba(22, 22, 22, 0.6),
+      rgba(22, 22, 22, 0.6)
+    ),
+    url(services.jpg);
+
+  background-size: cover;
+  background-position: 50%;
+  background-repeat: no-repeat;
+}
+
+/* Add this CSS code to your existing styles */
+
+.flip-card {
+  background-color: transparent;
+  /* width: 300px;
+  height: 200px; */
+
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+}
+
+/* This container is needed to position the front and back side */
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-card-front,
+.flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+/* Style the front side (fallback if image is missing) */
+.flip-card-front {
+}
+
+/* Style the back side */
+.flip-card-back {
+  background-color: dodgerblue;
+  color: white;
+  transform: rotateY(180deg);
+}
+/* Add any additional styling or adjustments as needed */
+
+.zoom-item {
+  overflow: hidden;
+}
+
+.zoom-item img {
+  display: block;
+  width: 100%;
+  transition: all 0.3s;
+}
+
+.zoom {
+  overflow-clip-margin: content-box;
+  overflow: clip;
+}
+.zoom:hover {
+  scale: 1.1;
+}
+
+.service-btn:hover,
+.service-btn:active {
+  background-color: #000;
+  color: #fff;
+}
+
+.bg-black {
+  background-color: #000;
+}
+.text-black {
+  color: #fff;
+}
+
+.about-us {
+  /* height: 60vh; */
+  background-image: linear-gradient(
+      rgba(16, 37, 65, 0.9) 0%,
+      rgba(0, 0, 0, 0.9) 100%
+    ),
+    url(laundrette-hove.jpg);
+  background-size: cover;
+}
+
+.about-us p {
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+
+.about-us-new {
+  font-size: 1.05rem;
+  text-align: justify;
+  gap: 3rem;
+}
+
+.about-us-new img {
+  box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.3);
+}
+
+@media (min-width: 769px) {
+  .about-us-new {
+    font-size: 1.05rem;
+    text-align: justify;
+
+    gap: 6rem;
+  }
+
+  .about-us-new img {
+    box-shadow: -18px 18px 10px 0px rgba(0, 0, 0, 0.5);
+  }
+}
+
+.what-we-do h6 {
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.9rem;
+}
+
+.what-we-do p {
+  font-size: 1rem;
+  line-height: 1.7rem;
+  font-weight: 500;
+}
+
+.what-to-expect .what-to-expect-line {
+  border: 2px solid #4ec4cf !important;
+}
+
+.border-line {
+  border: 2px solid #4ec4cf !important;
+}
+
+.what-to-expect .bg-box-2,
+.commercial-book {
+  background-image: linear-gradient(
+      180deg,
+      rgba(0, 44, 58, 0.7) 0%,
+      rgba(0, 0, 0, 0.73) 100%
+    ),
+    url(box-2-water.jpg);
+  background-size: cover;
+  background-position: 50%;
+  background-repeat: no-repeat;
+}
+
+.commercial-hero {
+  background-image: linear-gradient(
+      rgba(22, 22, 22, 0.4),
+      rgba(22, 22, 22, 0.4)
+    ),
+    url(comercial-hero.jpg);
+
+  background-size: cover;
+  background-position: 50%;
+  background-repeat: no-repeat;
+}
+
+.booking-hero {
+  background-image: linear-gradient(
+      rgba(22, 22, 22, 0.4),
+      rgba(22, 22, 22, 0.4)
+    ),
+    url(laundry-delivery-hero.jpg);
+
+  background-size: cover;
+  background-position: 50%;
+  background-repeat: no-repeat;
+}
+
+.how-works-hero {
+  background-image: linear-gradient(
+      rgba(22, 22, 22, 0.4),
+      rgba(22, 22, 22, 0.4)
+    ),
+    url(what-to-expect-main-img.jpg);
+
+  background-size: cover;
+  background-position: 50%;
+  background-repeat: no-repeat;
+}
+
+.booking-hero {
+  background-image: linear-gradient(
+      rgba(22, 22, 22, 0.4),
+      rgba(22, 22, 22, 0.4)
+    ),
+    url(booking-hero.jpg);
+
+  background-size: cover;
+  background-position: 50%;
+  background-repeat: no-repeat;
+}
+
+.booking-btn {
+  border: 1.5px solid #fff;
+  font-size: 1.2rem;
+  color: #fff;
+}
+.booking-btn:hover {
+  border: none;
+  font-size: 1.2rem;
+  color: #fff;
+  background-color: #4ec4cf;
+}
